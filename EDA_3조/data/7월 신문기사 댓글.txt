@@ -1,0 +1,32 @@
+ÃÑ ´©Àû ´ñ±Û°¹¼ö
+1659 °³
+ÃÑ ´©Àû ´ñ±Û°¹¼ö
+1659 °³
+Requirement already satisfied: konlpy in c:\users\user\anaconda3\lib\site-packages (0.5.2)
+Requirement already satisfied: lxml>=4.1.0 in c:\users\user\anaconda3\lib\site-packages (from konlpy) (4.6.3)
+Requirement already satisfied: tweepy>=3.7.0 in c:\users\user\anaconda3\lib\site-packages (from konlpy) (3.10.0)
+Requirement already satisfied: numpy>=1.6 in c:\users\user\anaconda3\lib\site-packages (from konlpy) (1.19.5)
+Requirement already satisfied: JPype1>=0.7.0 in c:\users\user\anaconda3\lib\site-packages (from konlpy) (1.3.0)
+Requirement already satisfied: beautifulsoup4==4.6.0 in c:\users\user\anaconda3\lib\site-packages (from konlpy) (4.6.0)
+Requirement already satisfied: colorama in c:\users\user\anaconda3\lib\site-packages (from konlpy) (0.4.4)
+Requirement already satisfied: six>=1.10.0 in c:\users\user\anaconda3\lib\site-packages (from tweepy>=3.7.0->konlpy) (1.15.0)
+Requirement already satisfied: requests[socks]>=2.11.1 in c:\users\user\anaconda3\lib\site-packages (from tweepy>=3.7.0->konlpy) (2.25.1)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in c:\users\user\anaconda3\lib\site-packages (from tweepy>=3.7.0->konlpy) (1.3.0)
+Requirement already satisfied: oauthlib>=3.0.0 in c:\users\user\anaconda3\lib\site-packages (from requests-oauthlib>=0.7.0->tweepy>=3.7.0->konlpy) (3.1.1)
+Requirement already satisfied: chardet<5,>=3.0.2 in c:\users\user\anaconda3\lib\site-packages (from requests[socks]>=2.11.1->tweepy>=3.7.0->konlpy) (4.0.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\user\anaconda3\lib\site-packages (from requests[socks]>=2.11.1->tweepy>=3.7.0->konlpy) (2020.12.5)
+Requirement already satisfied: idna<3,>=2.5 in c:\users\user\anaconda3\lib\site-packages (from requests[socks]>=2.11.1->tweepy>=3.7.0->konlpy) (2.10)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\user\anaconda3\lib\site-packages (from requests[socks]>=2.11.1->tweepy>=3.7.0->konlpy) (1.26.4)
+Requirement already satisfied: PySocks!=1.5.7,>=1.5.6 in c:\users\user\anaconda3\lib\site-packages (from requests[socks]>=2.11.1->tweepy>=3.7.0->konlpy) (1.7.1)
+Collecting wordcloud
+  Downloading wordcloud-1.8.1-cp38-cp38-win_amd64.whl (155 kB)
+Requirement already satisfied: numpy>=1.6.1 in c:\users\user\anaconda3\lib\site-packages (from wordcloud) (1.19.5)
+Requirement already satisfied: matplotlib in c:\users\user\anaconda3\lib\site-packages (from wordcloud) (3.3.4)
+Requirement already satisfied: pillow in c:\users\user\anaconda3\lib\site-packages (from wordcloud) (8.2.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\user\anaconda3\lib\site-packages (from matplotlib->wordcloud) (1.3.1)
+Requirement already satisfied: python-dateutil>=2.1 in c:\users\user\anaconda3\lib\site-packages (from matplotlib->wordcloud) (2.8.1)
+Requirement already satisfied: cycler>=0.10 in c:\users\user\anaconda3\lib\site-packages (from matplotlib->wordcloud) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 in c:\users\user\anaconda3\lib\site-packages (from matplotlib->wordcloud) (2.4.7)
+Requirement already satisfied: six in c:\users\user\anaconda3\lib\site-packages (from cycler>=0.10->matplotlib->wordcloud) (1.15.0)
+Installing collected packages: wordcloud
+Successfully installed wordcloud-1.8.1
