@@ -168,7 +168,7 @@ ignored_files/*
 data/*
 
 # excel files
-*.xlsx
+#*.xlsx
 
 # etc file
 etc/*
